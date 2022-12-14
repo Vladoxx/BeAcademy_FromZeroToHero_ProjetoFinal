@@ -9,17 +9,12 @@
 
 html {
     font-size: 14px;
-    /* box-sizing: border-box; */
   }
-    /* *, *:before, *:after {
-    box-sizing: inherit;
-  } */
-
 
 body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    /* background: #00ffff; */
     background: #6ae4e4;
+    /* background: #00ffff; */
     /* background: #000000; */
 }

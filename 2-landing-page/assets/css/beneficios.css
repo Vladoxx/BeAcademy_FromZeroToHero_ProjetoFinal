@@ -18,14 +18,12 @@
 }
 
 .conteudo-principal__div-articles {
-    /* text-align: -webkit-center; */
+
 }
 
 .conteudo-principal__articles {
     margin: auto;
     width: 60%;
-    /* height: 30rem; */
-    /* padding: 1rem; */
     line-height: 1.6rem;
     margin-bottom: 1rem;
     background: rgb(216, 235, 238, 0.9);

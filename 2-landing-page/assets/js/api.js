@@ -17,11 +17,3 @@ const mostraData = (data) => {
 
     document.querySelector('#data').innerHTML = body;
 }
-
-const atualizar = document.querySelector('#tabela');
-
-atualizar.addEventListener('click', function () {
-    mostraData().load().innerHTML = body;
-})
-
-// Usar Finally

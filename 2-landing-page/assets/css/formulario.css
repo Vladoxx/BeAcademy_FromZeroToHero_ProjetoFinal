@@ -169,12 +169,12 @@
     }
 
     .conteudo-principal__subscricao-input:focus ~ .conteudo-principal__subscricao-label,
-.conteudo-principal__subscricao-textarea:focus ~ .conteudo-principal__subscricao-label,
-.conteudo-principal__subscricao-input:valid ~ .conteudo-principal__subscricao-label,
-.conteudo-principal__subscricao-textarea:valid ~ .conteudo-principal__subscricao-label
-{
-    padding-left: 0.4rem;
-}
+    .conteudo-principal__subscricao-textarea:focus ~ .conteudo-principal__subscricao-label,
+    .conteudo-principal__subscricao-input:valid ~ .conteudo-principal__subscricao-label,
+    .conteudo-principal__subscricao-textarea:valid ~ .conteudo-principal__subscricao-label
+    {
+        padding-left: 0.4rem;
+    }
     
     .conteudo-principal__button {
         font-size: 1.2rem;
