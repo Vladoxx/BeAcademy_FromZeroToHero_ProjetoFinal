@@ -1,0 +1,146 @@
+.conteudo-principal__container {
+    width: 100%;
+}
+
+.conteudo-principal__beneficios {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 1rem 0 1rem 0;
+    align-items: center;
+}
+
+.conteudo-principal__titulo-beneficios {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 1rem 0 2rem 0;
+}
+
+.conteudo-principal__div-articles {
+    /* text-align: -webkit-center; */
+}
+
+.conteudo-principal__articles {
+    margin: auto;
+    width: 60%;
+    /* height: 30rem; */
+    /* padding: 1rem; */
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+    background: rgb(216, 235, 238, 0.9);
+    box-shadow: 0px 3px 6px #179ba0;
+    border-radius: 10px;
+    border: 1.8px solid #ffa600;
+}
+
+.conteudo-principal__articles:hover {
+    background: rgba(114, 224, 200, 0.9);
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.conteudo-principal__article-titulos {
+    font-style: oblique;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000000;
+    padding: 1rem;
+    border-bottom: 1px solid #c7c3ba;
+}
+
+.conteudo-principal__article-paragrafo {
+    font-size: 1.1rem;
+    color: #000000;
+    line-height: 19px;
+    padding: 1.5rem;
+    text-align: left;
+    word-spacing: normal;
+}
+
+.conteudo-principal__article-lista {
+    font-size: 1.1rem;
+    color: #000000;
+    text-align: left;
+    padding: 1.5rem;
+    line-height: 2rem;
+    list-style: disc;
+    margin-left: 1rem;
+}
+
+/* Responsive */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .conteudo-principal__beneficios {
+        padding: 1rem 1rem;
+    }
+    
+    .conteudo-principal__titulo-beneficios {
+        font-size: 2.5rem;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .conteudo-principal__div-articles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    .conteudo-principal__articles {
+        width: 40%;
+        height: 100%;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    
+    .conteudo-principal__articles:hover {
+        padding: 1.5rem;
+    }
+    
+    .conteudo-principal__article-titulos {
+        font-size: 1.8rem;
+    }
+    
+    .conteudo-principal__article-paragrafo {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    
+    .conteudo-principal__article-lista {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .conteudo-principal__beneficios {
+        padding: 0rem 2rem 2rem 2rem;
+    }
+    
+    .conteudo-principal__titulo-beneficios {
+        font-size: 3.2rem;
+        padding: 1rem 0 3rem 0;
+    }
+
+    .conteudo-principal__div-articles {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .conteudo-principal__articles {
+        width: 85%;
+        height: 100%;
+    }
+    
+    .conteudo-principal__article-paragrafo {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    
+    .conteudo-principal__article-lista {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+}

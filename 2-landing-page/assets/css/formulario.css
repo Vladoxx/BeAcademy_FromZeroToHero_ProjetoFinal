@@ -1,0 +1,183 @@
+.conteudo-principal__subscricao {
+    padding: 2rem 0 1rem 0;
+}
+
+.conteudo-principal__subscricao-titulo {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #ffffff;
+    padding-bottom: 0.5rem;
+}
+
+.conteudo-principal__subscricao-form {
+    margin: auto;
+    padding-bottom: 1rem;
+    width: 80%;
+    box-sizing: border-box;
+  }
+    *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.conteudo-principal__subscricao-div {
+    position: relative;
+}
+
+.conteudo-principal__subscricao-input {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 1.6rem;
+    outline: none;
+    font-style: normal;
+    font-size: 1.1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2.5px #031824;
+    padding-left: 0.3rem;
+}
+
+.conteudo-principal__subscricao-textarea {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    outline: none;
+    resize: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2.5px #031824;
+    margin-top: 1.7rem;
+    padding-left: 0.3rem;
+}
+
+.conteudo-principal__subscricao-label {
+    color: #43494b;
+    position: absolute;
+    font-size: 1.1rem;
+    left: 0.3rem;
+    top: 3.4rem;
+    pointer-events: none;
+    transition: .5;
+}
+
+.conteudo-principal__alert {
+    margin-top: 3px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.conteudo-principal__subscricao-input:focus ~ .conteudo-principal__subscricao-label,
+.conteudo-principal__subscricao-textarea:focus ~ .conteudo-principal__subscricao-label,
+.conteudo-principal__subscricao-input:valid ~ .conteudo-principal__subscricao-label,
+.conteudo-principal__subscricao-textarea:valid ~ .conteudo-principal__subscricao-label
+{
+    transform: translateY(-40px);
+    font-size: 1.1rem;
+    color: #ffffff;
+    transition: .35s;
+}
+
+.conteudo-principal__button {
+    margin: 0.4rem auto 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 55%;   
+    height: 2.8rem;
+    border-radius: 1rem;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #b0deda;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.conteudo-principal__button:hover {
+    background-color: #13415b;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+
+    .conteudo-principal__subscricao-titulo {
+        font-size: 3rem;
+    }
+    
+    .conteudo-principal__subscricao-form {
+        width: 70%;
+        padding-bottom: 2rem;
+    }
+
+    .conteudo-principal__subscricao-div {
+        margin-bottom: 0.5rem;
+    }
+    
+    .conteudo-principal__subscricao-input {
+        height: 4rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    
+    .conteudo-principal__subscricao-textarea {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    
+    .conteudo-principal__subscricao-label {
+        font-size: 1.4rem;
+    }
+    
+    .conteudo-principal__alert {
+        font-size: 1.3rem;
+    }
+    
+    .conteudo-principal__subscricao-input:focus ~ .conteudo-principal__subscricao-label,
+    .conteudo-principal__subscricao-textarea:focus ~ .conteudo-principal__subscricao-label,
+    .conteudo-principal__subscricao-input:valid ~ .conteudo-principal__subscricao-label,
+    .conteudo-principal__subscricao-textarea:valid ~ .conteudo-principal__subscricao-label
+    {
+        transform: translateY(-48px);
+        font-size: 1.4rem;
+    }
+    
+    .conteudo-principal__button {
+        font-size: 1.2rem;
+        height: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .conteudo-principal__subscricao-titulo {
+        font-size: 5rem;
+        padding: 2rem 0 1rem 0;
+    }
+
+    .conteudo-principal__subscricao-input {
+        padding-left: 0.4rem;
+    }
+    
+    .conteudo-principal__subscricao-textarea {
+        padding-left: 0.4rem;
+    }
+
+    .conteudo-principal__subscricao-label {
+        padding-left: 0.4rem;
+    }
+
+    .conteudo-principal__subscricao-input:focus ~ .conteudo-principal__subscricao-label,
+.conteudo-principal__subscricao-textarea:focus ~ .conteudo-principal__subscricao-label,
+.conteudo-principal__subscricao-input:valid ~ .conteudo-principal__subscricao-label,
+.conteudo-principal__subscricao-textarea:valid ~ .conteudo-principal__subscricao-label
+{
+    padding-left: 0.4rem;
+}
+    
+    .conteudo-principal__button {
+        font-size: 1.2rem;
+        height: 3.5rem;
+    }
+}

@@ -1,0 +1,50 @@
+.rodape {
+    font-size: 1.1rem;
+    margin-top: 2.8rem;
+}
+
+.rodape__links {
+    display: flex;
+    margin: 0 0.3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape__github {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 100%;
+    margin-bottom: 0.3rem;
+    width: 1.5rem;
+    height: 1.5rem; 
+}
+
+.rodape__top-button {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 100%;
+    margin-bottom: 0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+
+    .rodape {
+    font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .rodape__github {
+        width: 1.7rem;
+        height: 1.7rem; 
+    }
+    
+    .rodape__top-button {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+}

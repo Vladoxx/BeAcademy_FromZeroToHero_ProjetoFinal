@@ -1,0 +1,25 @@
+@import url(cabecalho.css);
+@import url(criptomoedas-conceito.css);
+@import url(beneficios.css);
+@import url(mercado.css);
+@import url(formulario.css);
+@import url(footer.css);
+
+
+
+html {
+    font-size: 14px;
+    /* box-sizing: border-box; */
+  }
+    /* *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    /* background: #00ffff; */
+    background: #6ae4e4;
+    /* background: #000000; */
+}

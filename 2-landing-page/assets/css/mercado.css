@@ -1,0 +1,79 @@
+.conteudo-principal__mercado {
+    
+}
+
+.conteudo-principal__mercado-titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.conteudo-principal__cripto-tabela {
+    background-color: #2b8b97;
+    margin: 1rem auto 1rem auto;
+    width: 47%;
+    box-shadow: 0 0 20px #008000;
+    border: 1.5px solid #000000;
+}
+
+.conteudo-principal__cripto-tabela thead tr {
+    background-color: #00ffff;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.conteudo-principal__cripto-tabela th, .conteudo-principal__cripto-tabela td {
+    padding: 20px 20px;
+}
+
+.conteudo-principal__cripto-tabela tbody tr:nth-of-type(even) {
+    background: #ffffff;
+}
+
+.conteudo-principal__cotizacoes-titulo {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+
+    .conteudo-principal__mercado-titulo {
+        font-size: 2.5rem;
+    }
+    
+    .conteudo-principal__cripto-tabela {
+        width: 60%;
+    }
+    
+    .conteudo-principal__cripto-tabela thead tr {
+        font-size: 1.4rem;
+    }
+    
+    .conteudo-principal__cripto-tabela th, .conteudo-principal__cripto-tabela td {
+        font-size: 1.4rem;
+        padding: 30px 30px;
+    }
+    
+    .conteudo-principal__cotizacoes-titulo {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .conteudo-principal__mercado-titulo {
+        font-size: 3.2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .conteudo-principal__cotizacoes-titulo {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+    }
+}
