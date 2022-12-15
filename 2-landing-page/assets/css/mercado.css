@@ -69,7 +69,7 @@
 
     .conteudo-principal__mercado-titulo {
         font-size: 3.2rem;
-        padding-bottom: 1rem;
+        padding: 2rem 0 2rem 0;
     }
     
     .conteudo-principal__cotizacoes-titulo {

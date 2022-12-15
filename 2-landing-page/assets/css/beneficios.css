@@ -131,6 +131,10 @@
         width: 85%;
         height: 100%;
     }
+
+    .conteudo-principal__article-titulos {
+        font-size: 1.8rem;
+    }
     
     .conteudo-principal__article-paragrafo {
         font-size: 1.3rem;
